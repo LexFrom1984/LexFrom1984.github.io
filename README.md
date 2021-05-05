@@ -7,7 +7,7 @@
 apt update && apt upgrade -y
 ```
 ```bash
-pkg install ruby curl git wget -y
+apt install ruby curl git wget -y
 ```
 ```bash
 gem install bundler:1.17.3
@@ -25,6 +25,15 @@ dpkg -i metasploit_5.0.56_android5_all.deb
 ```bash
 apt install -f
 ```
-#### so, Dependency & Metasploit are Installed successfully...
+#### So, Dependency & Metasploit are Installed successfully...
 
+##### You can start or stop Postgresql Database using this command...
+#####[start]
+```bash
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
+```
+#####[stop]
+```bash
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile stop
+```
 ## If You're copying my content, Please give me credits...
