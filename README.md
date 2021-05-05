@@ -28,11 +28,11 @@ apt install -f
 #### So, Dependency & Metasploit are Installed successfully...
 
 ##### You can start or stop Postgresql Database using this command...
-#####[start]
+##### [start]
 ```bash
 pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
 ```
-#####[stop]
+##### [stop]
 ```bash
 pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile stop
 ```
